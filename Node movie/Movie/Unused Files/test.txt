@@ -1,0 +1,6 @@
+ const movieInfo = {
+         movieTitle:movie.title,
+          movieImage:movie.poster_path,
+         movieDescription:movie.overview
+    }
+   res.render('movies.ejs',movieInfo)
